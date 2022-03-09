@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  <title>Bootstrap Portifolio Page</title>
+</head>
+
+<body>
+  <!-------start-navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portifolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto ms-auto  mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonial</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <!----
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>-->
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-------end of navbar-------------->
+  <section class="home mt-3">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="image-person">
+            <img src="./images/image3.jpg" class="img-fluid" style="max-width:90%" class="rounded-circle"
+              class="thumbnail img-responsive" alt="Lady">
+
+          </div>
+
+        </div>
+
+        <div class="col-md-6">
+          <h1>Hi I Am Elisa Mahlison</h1>
+          <h3>FASHION DESIGNER</h3>
+          <p> Bella's Recipe Blog has the latest recipes from Cooks and Chefs and People like Ourselves who
+            loves food. Browse through the collections of recipes and kindly feel free to
+            add your own special recipe so I can try</p>
+          <button class="btn btn-outline-dark">Read More</button>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about bg-secondary pb-4 mt-5">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col">
+          <h1 style="text-align:center" class="text-light pt-5">About Me</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about-me">
+            <p style="width: 80%" class="text-light mt-5">Hi welcome to my page I am a renowed fashion Icon. My work
+              spans across the continent.
+              I have styled maost of your favorite celebriities
+              .My works are usually simple but elegant. I am glad you are here.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-4">
+              <h4 class="text-light">Walk In Store</h4>
+
+            </div>
+
+            <div class="col-sm-4">
+              <h4 class="text-light">Online Store</h4>
+
+            </div>
+
+            <div class="col-sm-4">
+              <h4 class="text-light">Call In Store</h4>
+
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col-12 d-flex align-items-center justify-content-between">
+              <a href="#" class="btn btn-warning">Download My Catalogue</a>
+              <div class="icons-social">
+                <a href="#"><i class="bi bi-facebook text-danger fs-2 ms-2"></i></a>
+                <a href="#"><i class="bi bi-twitter text-info fs-2 ms-2"></i></a>
+                <a href="#"><i class="bi bi-instagram text-succes fs-2 ms-2"></i></a>
+
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <div class="col-md-6 pt-5">
+          <div class="passion">
+            <h3>Clothes</h3>
+            <div class="progress bg-warning mb-2" style="height: 5px">
+              <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="passion">
+            <h3>Bags</h3>
+            <div class="progress bg-success mb-2" style="height: 5px">
+              <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+
+          </div>
+
+          <div class="passion">
+            <h3>Shoes</h3>
+            <div class="progress bg-danger mb-2" style="height: 5px">
+              <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="task py-4">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-center mb-4 mt-5">What I Do</h2>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 shadow-lg rounded text-center p-4 col-lg-4">
+          <div class="icon-card">
+            <i class="bi bi-instagram text-danger pt-1 fs-2"></i>
+          </div>
+          <div>
+            <h5 class="text-center">Bags</h5>
+            <p>Hi welcome to my page I am a renowed fashion Icon. My work
+              spans across the continent.
+              I have styled maost of your favorite celebriities
+              .My works are usually simple but elegant. I am glad you are here.
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-4 shadow-lg rounded text-center p-4 col-lg-4">
+          <div class="icon-card">
+            <i class="bi bi-facebook text-danger pt-1 fs-2"></i>
+          </div>
+          <div>
+            <h5>Shoes</h5>
+            <p>Hi welcome to my page I am a renowed fashion Icon. My work
+              spans across the continent.
+              I have styled maost of your favorite celebriities
+              .My works are usually simple but elegant. I am glad you are here.
+            </p>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-4 shadow-lg rounded text-center p-4 col-lg-4">
+          <div class="icon-card">
+            <i class="bi bi-twitter text-danger pt-1 fs-2"></i>
+          </div>
+          <div>
+            <h5>Wedding Gowns</h5>
+            <p>Hi welcome to my page I am a renowed fashion Icon. My work
+              spans across the continent.
+              I have styled maost of your favorite celebriities
+              .My works are usually simple but elegant. I am glad you are here.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-------------------start----latest work---------->
+  <section class="latest ">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-center mb-4 mt-5">My Latest Work</h2>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <img src="./images/image4.jpg" class="img-fluid" class="thumbnail img-responsive" alt="bags">
+        </div>
+
+        <div class="col-md-4">
+          <img src="./images/image5.jpg" class="img-fluid" class="thumbnail img-responsive" alt="bags">
+        </div>
+
+        <div class="col-md-4">
+          <img src="./images/image6.jpg" class="img-fluid" class="thumbnail img-responsive" alt="bags">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <div>
+    <h2 class="text-center mb-4 mt-5">Testimonial</h2>
+  </div>
+
+  <section class="test  d-flex justify-content-center align-items-center"
+    style="background-image: url(./images/image1.jpg); height: 70vh; width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col">
+          <p class=" text-center fs-3 text-light ">
+            "I have styled most of your favorite celebrities.My works are usually simple but elegant. I am glad you are
+            here"
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <div>
+    <h2 class="text-center mb-5 mt-5">Contact Us</h2>
+  </div>
+
+  <section class="contact">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-md-6">
+          <p>We are opened Monday to Friday. Call us to place your orders.
+            We are the best when it comes to your Latest fashion statements.
+            Reach us on all our social media handles.
+
+
+          </p>
+          <div class="icons-social">
+            <a href="#"><i class="bi bi-facebook text-danger fs-2 ms-2 text-dark"></i></a>
+            <a href="#"><i class="bi bi-twitter text-info fs-2 ms-2 text-dark"></i></a>
+            <a href="#"><i class="bi bi-instagram text-succes fs-2 ms-2 text-dark"></i></a>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-4">
+
+              <div class="circle bg-info" style="height:100px; width: 100px; border-radius: 100%;">
+
+              </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+              <div class="circle bg-danger" style="height:100px; width: 100px; border-radius: 100%;">
+              </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+              <div class="circle bg-warning" style="height:100px; width: 100px; border-radius: 100%;">
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-6">
+          <img src="./images/image6.jpg" class="img-fluid" style="max-width:90%" class="rounded-circle"
+            class="thumbnail img-responsive" alt="Lady">
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer class="bg-dark d-flex justify-content-center align-items-center" style="height: 200px; ">
+    <p class="text-light text-center pt-5">Powered By Blogger &copy; 2022 | Theme By: <span class="">Ashbella</span> </p>
+
+  </footer>
+
+
+
+  <!---------------------end of latest work---------->
+  <!--------portfolio---------->
+  <!---navbar factoring the responsiveness-->
+  <!----------picture and experienc------>
+  <!-----------about section------------>
+  <!---------------------task------------>
+  <!---------------latest works or task-------->
+  <!----------------testimonials-------------->
+  <!-----------------contact section----------------->
+  <!----------------footer--------------->
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
